@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntroToCPP", "IntroToCPP\In
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointers", "Pointers\Pointers.vcxproj", "{AD1C35CF-2290-4E5E-919C-B5DAAFD6A4F1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileIO", "FileIO\FileIO.vcxproj", "{D82D4B10-5D80-450B-9C60-A73A528F660E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{AD1C35CF-2290-4E5E-919C-B5DAAFD6A4F1}.Release|x64.Build.0 = Release|x64
 		{AD1C35CF-2290-4E5E-919C-B5DAAFD6A4F1}.Release|x86.ActiveCfg = Release|Win32
 		{AD1C35CF-2290-4E5E-919C-B5DAAFD6A4F1}.Release|x86.Build.0 = Release|Win32
+		{D82D4B10-5D80-450B-9C60-A73A528F660E}.Debug|x64.ActiveCfg = Debug|x64
+		{D82D4B10-5D80-450B-9C60-A73A528F660E}.Debug|x64.Build.0 = Debug|x64
+		{D82D4B10-5D80-450B-9C60-A73A528F660E}.Debug|x86.ActiveCfg = Debug|Win32
+		{D82D4B10-5D80-450B-9C60-A73A528F660E}.Debug|x86.Build.0 = Debug|Win32
+		{D82D4B10-5D80-450B-9C60-A73A528F660E}.Release|x64.ActiveCfg = Release|x64
+		{D82D4B10-5D80-450B-9C60-A73A528F660E}.Release|x64.Build.0 = Release|x64
+		{D82D4B10-5D80-450B-9C60-A73A528F660E}.Release|x86.ActiveCfg = Release|Win32
+		{D82D4B10-5D80-450B-9C60-A73A528F660E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
