@@ -59,3 +59,29 @@ int main()
 
 	return 0;
 }
+
+bool binaryFileExample()
+{
+	Character sbeve = Character();
+	sbeve.health = 100;
+	sbeve.damage = 12;
+
+	std::fstream file;
+	file.open("save.txt", std::ios::out | std::ios::binary);
+
+	if (!file.is_open())
+		return false;
+
+	file.write((char*)&sbeve, sizeof(Character));
+	file.close();
+
+	Character sbeve2 = Character();
+	file.open("save.txt", std::ios::in | std::ios::binary);
+
+	if (!file.is_open())
+		return false;
+
+	file.read((char*)&sbeve2, sizeof(Character));
+	file.close();
+	return true;
+}
